@@ -17,7 +17,7 @@ hspd = move * spd;
 vspd = vspd + grv;
 
 if (hspd != 0) {
-	image_xscale = -sign(hspd);
+	image_xscale = sign(hspd);
 }
 
 // COLISÃO HORIZONTAL
