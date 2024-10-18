@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_enemy",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"basicos",
-    "path":"folders/Objetos/basicos.yy",
+    "name":"personagens",
+    "path":"folders/Objetos/personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_wall",
     "path":"sprites/spr_wall/spr_wall.yy",
