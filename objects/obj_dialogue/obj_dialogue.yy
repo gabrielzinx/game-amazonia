@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_curupira",
-  "eventList":[],
+  "%Name":"obj_dialogue",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_curupira",
+  "name":"obj_dialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"personagens",
-    "path":"folders/Objetos/personagens.yy",
+    "name":"basicos",
+    "path":"folders/Objetos/basicos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

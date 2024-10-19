@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_curupira",
-  "eventList":[],
+  "%Name":"obj_dialogueplayer",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_curupira",
+  "name":"obj_dialogueplayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"personagens",
-    "path":"folders/Objetos/personagens.yy",
+    "name":"acontecimentos",
+    "path":"folders/Objetos/acontecimentos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"spr_player_amazon",
+    "path":"sprites/spr_player_amazon/spr_player_amazon.yy",
   },
   "spriteMaskId":null,
   "visible":true,
