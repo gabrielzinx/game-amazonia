@@ -14,6 +14,6 @@ if(cutscene == 10){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 5F69F517
 	/// @DnDParent : 6D1D544A
-	/// @DnDArgument : "room" "forest_spawn"
-	/// @DnDSaveInfo : "room" "forest_spawn"
-	room_goto(forest_spawn);}
+	/// @DnDArgument : "room" "precisamosdevoce"
+	/// @DnDSaveInfo : "room" "precisamosdevoce"
+	room_goto(precisamosdevoce);}

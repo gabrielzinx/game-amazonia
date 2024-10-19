@@ -5,3 +5,4 @@ spd = 3.5;
 hspd = 0;
 vspd = 0;
 grv = 0.4;
+jump = 0
