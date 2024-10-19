@@ -6,9 +6,9 @@ if(play == 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 454BBA20
 	/// @DnDParent : 5CD7FB49
-	/// @DnDArgument : "room" "Room1"
-	/// @DnDSaveInfo : "room" "Room1"
-	room_goto(Room1);}
+	/// @DnDArgument : "room" "barco_cutscene"
+	/// @DnDSaveInfo : "room" "barco_cutscene"
+	room_goto(barco_cutscene);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

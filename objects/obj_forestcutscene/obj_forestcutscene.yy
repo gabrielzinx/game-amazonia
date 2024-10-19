@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
-  "eventList":[],
+  "%Name":"obj_forestcutscene",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_forestcutscene",
   "overriddenProperties":[],
   "parent":{
-    "name":"personagens",
-    "path":"folders/Objetos/personagens.yy",
+    "name":"acontecimentos",
+    "path":"folders/Objetos/acontecimentos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_playercuts",
+    "path":"sprites/spr_playercuts/spr_playercuts.yy",
   },
   "spriteMaskId":null,
   "visible":true,

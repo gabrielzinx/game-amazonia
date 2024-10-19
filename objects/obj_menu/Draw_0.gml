@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 18221C48
+/// @DnDArgument : "font" "Font1"
+/// @DnDSaveInfo : "font" "Font1"
+draw_set_font(Font1);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 24B1332F
@@ -7,10 +14,10 @@ if(play == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 627BF848
 	/// @DnDParent : 24B1332F
-	/// @DnDArgument : "x" "540"
-	/// @DnDArgument : "y" "180"
+	/// @DnDArgument : "x" "640"
+	/// @DnDArgument : "y" "360"
 	/// @DnDArgument : "caption" ""play""
-	draw_text(540, 180, string("play") + "");
+	draw_text(640, 360, string("play") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -25,10 +32,10 @@ if(play == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 6B6C8CBB
 	/// @DnDParent : 24B1332F
-	/// @DnDArgument : "x" "540"
-	/// @DnDArgument : "y" "210"
-	/// @DnDArgument : "caption" ""Quit""
-	draw_text(540, 210, string("Quit") + "");
+	/// @DnDArgument : "x" "640"
+	/// @DnDArgument : "y" "400"
+	/// @DnDArgument : "caption" ""quit""
+	draw_text(640, 400, string("quit") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -55,10 +62,10 @@ if(play == 0){	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 764852BD
 	/// @DnDParent : 5839D083
-	/// @DnDArgument : "x" "540"
-	/// @DnDArgument : "y" "180"
+	/// @DnDArgument : "x" "640"
+	/// @DnDArgument : "y" "360"
 	/// @DnDArgument : "caption" ""play""
-	draw_text(540, 180, string("play") + "");
+	draw_text(640, 360, string("play") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -72,10 +79,10 @@ if(play == 0){	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 12146880
 	/// @DnDParent : 5839D083
-	/// @DnDArgument : "x" "540"
-	/// @DnDArgument : "y" "210"
-	/// @DnDArgument : "caption" ""Quit""
-	draw_text(540, 210, string("Quit") + "");
+	/// @DnDArgument : "x" "640"
+	/// @DnDArgument : "y" "400"
+	/// @DnDArgument : "caption" ""quit""
+	draw_text(640, 400, string("quit") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
