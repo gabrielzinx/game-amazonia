@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_vinha",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_vinha",
   "overriddenProperties":[],
   "parent":{
-    "name":"basicos",
-    "path":"folders/Objetos/basicos.yy",
+    "name":"interagiveis",
+    "path":"folders/Objetos/interagiveis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,7 +28,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_wall",
     "path":"sprites/spr_wall/spr_wall.yy",
