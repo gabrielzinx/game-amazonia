@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tiles",
+  "%Name":"tile_forest",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tiles",
-  "out_columns":25,
+  "name":"tile_forest",
+  "out_columns":26,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Conjuntos de tiles",
-    "path":"folders/Conjuntos de tiles.yy",
+    "name":"open",
+    "path":"folders/Conjuntos de tiles/open.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles",
-    "path":"sprites/spr_tiles/spr_tiles.yy",
+    "name":"spr_tile_forest",
+    "path":"sprites/spr_tile_forest/spr_tile_forest.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":625,
+  "tile_count":676,
 }
