@@ -10,3 +10,10 @@ fade = 1;
 /// @DnDHash : 47A1963E
 /// @DnDArgument : "var" "timer"
 timer = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 217ECF19
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "playonce"
+playonce = true;

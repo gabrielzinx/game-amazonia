@@ -16,10 +16,14 @@ image_alpha = fade;
 /// @DnDHash : 1FD0EE2C
 /// @DnDArgument : "var" "fade"
 /// @DnDArgument : "value" "1"
-if(fade == 1){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+if(fade == 1){	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 706C3D11
+	/// @DnDHash : 6D9E466C
 	/// @DnDParent : 1FD0EE2C
-	/// @DnDArgument : "room" "forest_spawn"
-	/// @DnDSaveInfo : "room" "forest_spawn"
-	room_goto(forest_spawn);}
+	room_goto_next();
+
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FFC9FB1
+	/// @DnDParent : 1FD0EE2C
+	audio_stop_all();}
