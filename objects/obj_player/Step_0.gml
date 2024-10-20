@@ -40,6 +40,37 @@ if (place_meeting(x, y + vspd, obj_wall)) {
 y = y + vspd;
 
 if (place_meeting(x, y + 1, obj_wall) and key_jump) {
-	vspd = vspd - 6;
+	vspd = vspd - jump;
 }
+
+#endregion
+
+#region ANIMATION
+
+if (!place_meeting(x, y + 1, obj_wall)) {
+	sprite_index = spr_player_jump_init;
+	
+	if (sign(vspd) > 0.5) {
+		sprite_index = spr_player_jump_fall;
+	} else {
+		sprite_index = spr_player_jump_init;
+	}
+} else {
+	if (hspd != 0) {
+		sprite_index = spr_player_running;
+	}
+}
+
+if (hspd = 0) {
+	if (place_meeting(x, y + 1, obj_wall)) {
+		sprite_index = spr_player_idle;
+	}
+}
+
+if (hspd != 0) {
+	if (place_meeting(x, y + 1, obj_wall)) {
+		sprite_index = spr_player_running;
+	}
+}
+
 #endregion
