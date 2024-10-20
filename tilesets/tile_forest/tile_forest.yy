@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"tile_forest",
-  "out_columns":26,
+  "out_columns":25,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tile_forest",
-    "path":"sprites/spr_tile_forest/spr_tile_forest.yy",
+    "name":"spr_tiles",
+    "path":"sprites/spr_tiles/spr_tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":676,
+  "tile_count":625,
 }

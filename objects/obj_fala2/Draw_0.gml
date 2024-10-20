@@ -8,13 +8,13 @@ draw_set_font(font2);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 7B01E3E9
-/// @DnDArgument : "x" "260"
-/// @DnDArgument : "y" "455"
+/// @DnDArgument : "x" "156"
+/// @DnDArgument : "y" "110"
 /// @DnDArgument : "xscale" "0.5"
 /// @DnDArgument : "yscale" "0.5"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "text" "string_copy("vai lá meu fi",1,dialogue)"
-draw_text_transformed(260, 455, string("") + string(string_copy("vai lá meu fi",1,dialogue)), 0.5, 0.5, 0);
+/// @DnDArgument : "text" "string_copy("Estava te esperando",1,dialogue)"
+draw_text_transformed(156, 110, string("") + string(string_copy("Estava te esperando",1,dialogue)), 0.5, 0.5, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

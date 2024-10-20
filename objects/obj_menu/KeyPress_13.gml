@@ -2,7 +2,14 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5CD7FB49
 /// @DnDArgument : "var" "play"
-if(play == 0){	/// @DnDAction : YoYo Games.Common.Variable
+if(play == 0){	/// @DnDAction : YoYo Games.Files.File_Delete
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E5B249C
+	/// @DnDParent : 5CD7FB49
+	/// @DnDArgument : "file" ""save.dat""
+	file_delete("save.dat");
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 18DBB478
 	/// @DnDParent : 5CD7FB49

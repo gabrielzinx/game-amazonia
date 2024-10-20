@@ -20,6 +20,13 @@ if(dialogue == 1){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDArgument : "var" "string_copy("Olá?... Você está ai?",1,dialoguelento)"
 draw_text(640, 360, string("") + string(string_copy("Olá?... Você está ai?",1,dialoguelento)));
 
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 36EA0637
+draw_set_colour($FFFFFFFF & $ffffff);
+var l36EA0637_0=($FFFFFFFF >> 24);
+draw_set_alpha(l36EA0637_0 / $ff);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 021501D3

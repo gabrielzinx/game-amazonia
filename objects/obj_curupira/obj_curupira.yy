@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"obj_curupira",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_curupira",
   "overriddenProperties":[],
   "parent":{
-    "name":"personagens",
-    "path":"folders/Objetos/personagens.yy",
+    "name":"curupira",
+    "path":"folders/Objetos/personagens/curupira.yy",
   },
   "parentObjectId":null,
   "persistent":false,

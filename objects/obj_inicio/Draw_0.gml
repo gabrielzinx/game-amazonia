@@ -1,12 +1,12 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 22263E25
-/// @DnDArgument : "x" "540"
-/// @DnDArgument : "y" "180"
+/// @DnDArgument : "x" "640"
+/// @DnDArgument : "y" "360"
 /// @DnDArgument : "alpha" "fade"
 /// @DnDArgument : "sprite" "spr_logo"
 /// @DnDSaveInfo : "sprite" "spr_logo"
-draw_sprite_ext(spr_logo, 0, 540, 180, 1, 1, 0, $FFFFFF & $ffffff, fade);
+draw_sprite_ext(spr_logo, 0, 640, 360, 1, 1, 0, $FFFFFF & $ffffff, fade);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

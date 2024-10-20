@@ -18,7 +18,7 @@ image_alpha = fade;
 /// @DnDArgument : "value" "1"
 if(fade == 1){	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 6D9E466C
+	/// @DnDHash : 7273DE4E
 	/// @DnDParent : 1FD0EE2C
 	room_goto_next();
 

@@ -10,8 +10,8 @@
   "name":"obj_barcocutscene",
   "overriddenProperties":[],
   "parent":{
-    "name":"acontecimentos",
-    "path":"folders/Objetos/acontecimentos.yy",
+    "name":"barco",
+    "path":"folders/Objetos/acontecimentos/barco.yy",
   },
   "parentObjectId":null,
   "persistent":false,

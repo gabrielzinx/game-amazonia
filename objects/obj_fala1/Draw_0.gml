@@ -8,13 +8,13 @@ draw_set_font(font2);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 7B01E3E9
-/// @DnDArgument : "x" "260"
-/// @DnDArgument : "y" "450"
+/// @DnDArgument : "x" "156"
+/// @DnDArgument : "y" "100"
 /// @DnDArgument : "xscale" "0.5"
 /// @DnDArgument : "yscale" "0.5"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "text" "string_copy("teste teste teste",1,dialogue)"
-draw_text_transformed(260, 450, string("") + string(string_copy("teste teste teste",1,dialogue)), 0.5, 0.5, 0);
+/// @DnDArgument : "text" "string_copy("Bem vindo Uriel.",1,dialogue)"
+draw_text_transformed(156, 100, string("") + string(string_copy("Bem vindo Uriel.",1,dialogue)), 0.5, 0.5, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -34,12 +34,12 @@ draw_set_valign(fa_top);
 /// @DnDVersion : 1
 /// @DnDHash : 3BCD83A7
 /// @DnDArgument : "var" "dialogue"
-/// @DnDArgument : "value" "17"
-if(dialogue == 17){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDArgument : "value" "25"
+if(dialogue == 25){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 6059D8B6
 	/// @DnDParent : 3BCD83A7
 	/// @DnDArgument : "objectid" "obj_fala2"
-	/// @DnDArgument : "layer" ""Instances_1""
+	/// @DnDArgument : "layer" ""Instances_2""
 	/// @DnDSaveInfo : "objectid" "obj_fala2"
-	instance_create_layer(0, 0, "Instances_1", obj_fala2);}
+	instance_create_layer(0, 0, "Instances_2", obj_fala2);}

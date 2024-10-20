@@ -1,19 +1,8 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 63C8B57A
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "fade"
-fade = 1;
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
+fade = 1
+timer = 0
+playonce = true
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 47A1963E
-/// @DnDArgument : "var" "timer"
-timer = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 217ECF19
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "playonce"
-playonce = true;
+fullscreen = true
+window_set_fullscreen(true)
