@@ -1,11 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 52225F26
+/// @DnDHash : 20B4E1B1
+/// @DnDArgument : "expr" "fade-0.05"
 /// @DnDArgument : "var" "fade"
-fade = 0;
+fade = fade-0.05;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
-/// @DnDHash : 4EC082EF
-/// @DnDArgument : "alpha" "0"
-image_alpha = 0;
+/// @DnDHash : 65503674
+/// @DnDArgument : "alpha" "fade"
+image_alpha = fade;

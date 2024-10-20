@@ -1,3 +1,16 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6A2A65DB
+/// @DnDArgument : "var" "dialogue"
+/// @DnDArgument : "value" "1"
+if(dialogue == 1){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 1E277396
+	/// @DnDParent : 6A2A65DB
+	/// @DnDArgument : "soundid" "Sound_whispers"
+	/// @DnDSaveInfo : "soundid" "Sound_whispers"
+	audio_play_sound(Sound_whispers, 0, 0, 1.0, undefined, 1.0);}
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 2E2FADFE

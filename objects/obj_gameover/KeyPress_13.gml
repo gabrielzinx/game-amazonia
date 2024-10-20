@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5CD7FB49
 /// @DnDArgument : "var" "play"
-if(play == 0){	/// @DnDAction : YoYo Games.Rooms.Previous_Room
+if(play == 0){	/// @DnDAction : YoYo Games.Game.Load_Game
 	/// @DnDVersion : 1
-	/// @DnDHash : 10E4C8C8
+	/// @DnDHash : 38B82516
 	/// @DnDParent : 5CD7FB49
-	room_goto_previous();}
+	game_load("save.dat");}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
