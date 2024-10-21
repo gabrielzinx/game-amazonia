@@ -13,8 +13,8 @@ draw_set_font(font2);
 /// @DnDArgument : "xscale" "0.5"
 /// @DnDArgument : "yscale" "0.5"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "text" "string_copy("Então é você que busca",1,dialogue)"
-draw_text_transformed(560, 390, string("") + string(string_copy("Então é você que busca",1,dialogue)), 0.5, 0.5, 0);
+/// @DnDArgument : "text" "string_copy("Eu nao sou de confiar",1,dialogue)"
+draw_text_transformed(560, 390, string("") + string(string_copy("Eu nao sou de confiar",1,dialogue)), 0.5, 0.5, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -39,7 +39,7 @@ if(dialogue == 25){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 6059D8B6
 	/// @DnDParent : 3BCD83A7
-	/// @DnDArgument : "objectid" "obj_yarafala2"
+	/// @DnDArgument : "objectid" "obj_yarafala4"
 	/// @DnDArgument : "layer" ""Instances_1""
-	/// @DnDSaveInfo : "objectid" "obj_yarafala2"
-	instance_create_layer(0, 0, "Instances_1", obj_yarafala2);}
+	/// @DnDSaveInfo : "objectid" "obj_yarafala4"
+	instance_create_layer(0, 0, "Instances_1", obj_yarafala4);}

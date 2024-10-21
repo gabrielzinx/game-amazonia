@@ -49,7 +49,7 @@ if(play == 1){	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 60F049F5
+	/// @DnDHash : 63A72EAE
 	/// @DnDParent : 54E8DB02
 	/// @DnDArgument : "room" "forest_Yara"
 	/// @DnDSaveInfo : "room" "forest_Yara"

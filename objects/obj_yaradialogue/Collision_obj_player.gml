@@ -7,11 +7,11 @@ with(Obj_yara) image_speed = 1;
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 080C997B
-/// @DnDArgument : "xpos" "240"
+/// @DnDArgument : "xpos" "415"
 /// @DnDArgument : "ypos" "450"
 /// @DnDArgument : "objectid" "obj_dialogueplayer"
 /// @DnDSaveInfo : "objectid" "obj_dialogueplayer"
-instance_create_layer(240, 450, "Instances", obj_dialogueplayer);
+instance_create_layer(415, 450, "Instances", obj_dialogueplayer);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

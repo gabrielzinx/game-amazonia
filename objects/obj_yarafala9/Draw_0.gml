@@ -9,12 +9,12 @@ draw_set_font(font2);
 /// @DnDVersion : 1
 /// @DnDHash : 7B01E3E9
 /// @DnDArgument : "x" "560"
-/// @DnDArgument : "y" "400"
+/// @DnDArgument : "y" "390"
 /// @DnDArgument : "xscale" "0.5"
 /// @DnDArgument : "yscale" "0.5"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "text" "string_copy("Minha benção",1,dialogue)"
-draw_text_transformed(560, 400, string("") + string(string_copy("Minha benção",1,dialogue)), 0.5, 0.5, 0);
+/// @DnDArgument : "text" "string_copy("Preparado?",1,dialogue)"
+draw_text_transformed(560, 390, string("") + string(string_copy("Preparado?",1,dialogue)), 0.5, 0.5, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1

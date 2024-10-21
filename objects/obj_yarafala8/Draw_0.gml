@@ -13,8 +13,8 @@ draw_set_font(font2);
 /// @DnDArgument : "xscale" "0.5"
 /// @DnDArgument : "yscale" "0.5"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "text" "string_copy("Minha benção",1,dialogue)"
-draw_text_transformed(560, 400, string("") + string(string_copy("Minha benção",1,dialogue)), 0.5, 0.5, 0);
+/// @DnDArgument : "text" "string_copy("Até o fim de minha canção",1,dialogue)"
+draw_text_transformed(560, 400, string("") + string(string_copy("Até o fim de minha canção",1,dialogue)), 0.5, 0.5, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
