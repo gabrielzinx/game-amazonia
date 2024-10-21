@@ -1,20 +1,17 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
-/// @DnDHash : 3D242F47
-/// @DnDArgument : "xpos" "220"
-/// @DnDArgument : "ypos" "111"
-/// @DnDArgument : "objectid" "obj_curupiraanim"
-/// @DnDSaveInfo : "objectid" "obj_curupiraanim"
-instance_create_layer(220, 111, "Instances", obj_curupiraanim);
+/// @DnDHash : 75054D79
+/// @DnDApplyTo : {Obj_yara}
+with(Obj_yara) image_speed = 1;
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 080C997B
-/// @DnDArgument : "xpos" "95"
-/// @DnDArgument : "ypos" "132"
+/// @DnDArgument : "xpos" "240"
+/// @DnDArgument : "ypos" "450"
 /// @DnDArgument : "objectid" "obj_dialogueplayer"
 /// @DnDSaveInfo : "objectid" "obj_dialogueplayer"
-instance_create_layer(95, 132, "Instances", obj_dialogueplayer);
+instance_create_layer(240, 450, "Instances", obj_dialogueplayer);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
@@ -29,8 +26,7 @@ instance_destroy();
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
-/// @DnDHash : 13726C72
-/// @DnDArgument : "soundid" "Sound_fire"
-/// @DnDArgument : "offset" "0.2"
-/// @DnDSaveInfo : "soundid" "Sound_fire"
-audio_play_sound(Sound_fire, 0, 0, 1.0, 0.2, 1.0);
+/// @DnDHash : 06D1C713
+/// @DnDArgument : "soundid" "sound_water"
+/// @DnDSaveInfo : "soundid" "sound_water"
+audio_play_sound(sound_water, 0, 0, 1.0, undefined, 1.0);

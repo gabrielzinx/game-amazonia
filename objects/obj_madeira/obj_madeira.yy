@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_yarafala",
+  "%Name":"obj_madeira",
   "eventList":[],
   "managed":true,
-  "name":"obj_yarafala",
+  "name":"obj_madeira",
   "overriddenProperties":[],
   "parent":{
-    "name":"yara",
-    "path":"folders/Objetos/dialogos/yara.yy",
+    "name":"basicos",
+    "path":"folders/Objetos/basicos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite37",
+    "path":"sprites/Sprite37/Sprite37.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

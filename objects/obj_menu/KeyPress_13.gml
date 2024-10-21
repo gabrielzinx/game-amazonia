@@ -51,6 +51,6 @@ if(play == 1){	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 60F049F5
 	/// @DnDParent : 54E8DB02
-	/// @DnDArgument : "room" "forest_tutorial"
-	/// @DnDSaveInfo : "room" "forest_tutorial"
-	room_goto(forest_tutorial);}
+	/// @DnDArgument : "room" "forest_Yara"
+	/// @DnDSaveInfo : "room" "forest_Yara"
+	room_goto(forest_Yara);}
