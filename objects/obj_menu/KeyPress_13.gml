@@ -30,11 +30,11 @@ if(play == 0){	/// @DnDAction : YoYo Games.Files.File_Delete
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 6F44607E
 	/// @DnDParent : 5CD7FB49
-	/// @DnDArgument : "soundid" "select"
+	/// @DnDArgument : "soundid" "sound_start_game"
 	/// @DnDArgument : "gain" "1"
 	/// @DnDArgument : "pitch" "0.5"
-	/// @DnDSaveInfo : "soundid" "select"
-	audio_play_sound(select, 0, 0, 1, undefined, 0.5);}
+	/// @DnDSaveInfo : "soundid" "sound_start_game"
+	audio_play_sound(sound_start_game, 0, 0, 1, undefined, 0.5);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
