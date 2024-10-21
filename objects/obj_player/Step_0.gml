@@ -74,3 +74,7 @@ if (hspd != 0) {
 }
 
 #endregion
+
+if (place_meeting(x, y + 1, obj_jumpper)) {
+	vspd = -6;
+}
