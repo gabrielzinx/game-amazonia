@@ -41,8 +41,16 @@ if(play == 0){	/// @DnDAction : YoYo Games.Files.File_Delete
 /// @DnDHash : 54E8DB02
 /// @DnDArgument : "var" "play"
 /// @DnDArgument : "value" "1"
-if(play == 1){	/// @DnDAction : YoYo Games.Game.End_Game
+if(play == 1){	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
-	/// @DnDHash : 3199171E
+	/// @DnDHash : 3358B151
 	/// @DnDParent : 54E8DB02
-	game_end();}
+	audio_stop_all();
+
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 60F049F5
+	/// @DnDParent : 54E8DB02
+	/// @DnDArgument : "room" "forest_tutorial"
+	/// @DnDSaveInfo : "room" "forest_tutorial"
+	room_goto(forest_tutorial);}

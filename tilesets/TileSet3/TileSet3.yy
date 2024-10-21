@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tile_forest",
+  "%Name":"TileSet3",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tile_forest",
-  "out_columns":27,
+  "name":"TileSet3",
+  "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles_vblue",
-    "path":"sprites/spr_tiles_vblue/spr_tiles_vblue.yy",
+    "name":"spr_tile_grass_lands",
+    "path":"sprites/spr_tile_grass_lands/spr_tile_grass_lands.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":729,
+  "tile_count":64,
 }
