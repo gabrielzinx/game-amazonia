@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":25.2,
+  "duration":138.65794,
   "name":"yarasom",
   "parent":{
     "name":"Sons",
