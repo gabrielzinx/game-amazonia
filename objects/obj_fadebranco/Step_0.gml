@@ -16,11 +16,13 @@ image_alpha = fade;
 /// @DnDHash : 1FD0EE2C
 /// @DnDArgument : "var" "fade"
 /// @DnDArgument : "value" "1"
-if(fade == 1){	/// @DnDAction : YoYo Games.Rooms.Next_Room
+if(fade == 1){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 7273DE4E
+	/// @DnDHash : 09B94286
 	/// @DnDParent : 1FD0EE2C
-	room_goto_next();
+	/// @DnDArgument : "room" "forest_Yara"
+	/// @DnDSaveInfo : "room" "forest_Yara"
+	room_goto(forest_Yara);
 
 	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
